@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="banner">
+    <image class="logo" src="../images/logo1.jpg"></image>
+  </view>
+  <view class="userinfo">
+  <text class="userinfo-nickname">你好，{{userInfo.nickName}}</text>
+  </view>
+  <view class="bt_wrap"  bindtap="goMusicTap">
+    <text class="btn">和音乐一起分享时光</text>
+  </view>
+
+</view>

@@ -1,0 +1,24 @@
+
+<!--pages/music/music-detail/music-detail.wxml-->
+<view class="container">
+  <image class="head-img" src="{{headimg}}"></image>
+  <view class="author-data">
+    <image class="avatar" src="{{authoricon1}}"></image>
+    <text class="author">{{author}}</text>
+    <text class="const-text">发表于</text>
+    <text class="date">{{dataTime}}</text>
+
+    <!-- 音乐播放 -->
+    <image catchtap="playermusic" class="music" src="{{musicflag? '../../images/earphone.png' : '../../images/eartag.png'}}"></image>
+  </view>
+  <text class="title">{{title}}</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image bindtap="onCollected" wx:if="{{collected}}" src="../../images/sch.png"></image>
+      <image bindtap="onCollected" wx:else src="../../images/sc.png"></image>
+      <image catchtap="shareTap" class="share-img" src="../../images/fx.png"></image>
+    </view>
+    <view class="horizon"></view>
+  </view>
+  <text class="detail">{{detail}}</text>
+</view>

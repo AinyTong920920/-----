@@ -1,0 +1,20 @@
+<template name="tmp2">
+<view class="items">
+      <view class="item">
+        <image src="../images/zl1.png"></image>
+      </view>
+      <view class="item txt-item">
+        <text>这是歌是我一直在等待的回信</text>
+        <view class="num">8.7万人</view>
+      </view>
+    </view>
+    <view class="items">
+      <view class="item">
+        <image src="../images/zl2.png"></image>
+      </view>
+      <view class="item txt-item">
+        <text>心空空，心空人不空</text>
+        <view class="num">9.5万人</view>
+      </view>
+    </view>
+</template>

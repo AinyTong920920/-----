@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner .logo{
+  width:300rpx;
+  height:300rpx;
+}
+
+.userinfo-nickname {
+  color: #777;
+  font-size:30rpx;
+  font-weight: bold;
+}
+
+.userinfo {
+  margin-top: 40rpx;
+}
+
+.bt_wrap{
+  margin-top: 50rpx;
+   border:1px solid rgb(250,78,78);
+   padding:10rpx 20rpx;
+   border-radius: 5px;
+   color: rgb(250,78,78);
+}
+ 
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/music/music",
+    "pages/music/music-detail/music-detail",
+    "pages/movie/movie",
+    "pages/movie/movie-detail/movie-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "考拉FM",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "rgb(250,78,78)",
+    "backgroundColor": "#fafafc",
+    "list": [
+      {
+        "pagePath": "pages/music/music",
+        "text": "音与文",
+        "iconPath": "pages/images/txtmusic0.png",
+        "selectedIconPath": "pages/images/txtmusic1.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "影与评",
+        "iconPath": "pages/images/yuedu0.png",
+        "selectedIconPath": "pages/images/yuedu1.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+<template name="tmp1">
+  <view>
+    <view class="mm mm_1">
+      <view class="bg"></view>
+      <view>
+        <view class="mm_title">
+          <text>Brad Paisley</text>
+          <text> 《Letter To Me》</text>
+        </view>
+        <view class="mm_cont">
+          <text>「每一次的争执 就只当是你错了而爸爸是对的 你真要好好感谢Brinkman老师 她为你花费了那么多额外的时间」
+          </text>
+        </view>
+      </view>
+    </view>
+    <view class="mm mm_2">
+      <view class="bg"></view>
+      <view>
+        <view class="mm_title">
+          <text>Eminem & Dido </text>
+          <text> 《Stan》</text>
+        </view>
+        <view class="mm_cont">
+          「但愿它能及时寄到 在你伤害自己前」
+          <view>
+            姆爷的这首歌名取自一个Stan的粉丝，姆爷想以这首歌警示歌迷，分清他歌中的虚实，珍爱自己，也以此纪念他的这位歌迷。
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="mm mm_3">
+      <view class="bg"></view>
+      <view>
+        <view class="mm_title">
+          <text>Eminem </text>
+          <text> 《Mocking Bird》</text>
+        </view>
+        <view class="mm_cont">
+          依然是姆爷的经典作品，这首写给他的女儿Hailie，也是姆爷最温柔的一首歌，词里行间能够实实在在地感受到Eminem作为一个父亲对女儿那份深厚的爱。姆爷，真男人！
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

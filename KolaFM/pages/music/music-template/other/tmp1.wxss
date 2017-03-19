@@ -1,0 +1,39 @@
+.mm {
+  width: 100%;
+  position: relative;
+  padding:20rpx 0 30rpx;
+}
+
+.mm.mm_1{
+    padding-top: 0;
+}
+
+.mm_1 .bg {
+  background: url(../images/zl3.png) no-repeat;
+}
+.mm_2 .bg {
+  background: url(../images/zl4.png) no-repeat;
+}
+.mm_3 .bg {
+  background: url(../images/zl5.png) no-repeat;
+}
+
+.mm .bg {
+  background-size: cover;
+  min-height: 300rpx;
+  max-height: 370rpx;
+  height: 350rpx;
+  opacity: 0.9;
+}
+
+.mm_title {
+  color: #333;
+  font-size:35rpx;
+  padding:15rpx 10rpx;
+  font-weight: bold;
+}
+.mm_cont{
+    font-size: 25rpx;
+    color:#888;
+    line-height: 40rpx;
+}

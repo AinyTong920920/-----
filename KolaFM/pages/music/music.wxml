@@ -1,0 +1,28 @@
+
+<!--导入模块-->
+<import src="music-template/music-template.wxml" />
+
+<!--轮播图-->
+<swiper class="swiper_wrap" indicator-dots="true" circular="true" autoplay="autoplay" interval="2000" duration="1000">
+  <swiper-item>
+    <image src="http://www.semorn.com/wp-content/uploads/2016/02/2011101304392312415-430x230.jpg" class="slide-image" />
+  </swiper-item>
+  <swiper-item>
+    <image src=" http://www.semorn.com/wp-content/uploads/2014/09/xlzy17.jpg" class="slide-image" />
+  </swiper-item>
+  <swiper-item>
+    <image src="http://www.semorn.com/wp-content/uploads/2015/06/003269690-430x230.jpg" class="slide-image" />
+     </swiper-item>
+     <swiper-item>
+    <image src="http://www.semorn.com/wp-content/uploads/2016/03/2012070921204-430x230.jpg" class="slide-image" />
+  </swiper-item>
+</swiper>
+
+<!--container-->
+<view class="container">
+  <block wx:for="{{newsData}}" wx:for-item="item" wx:key="key">
+    <view bindtap="goMusicDetail" data-musicid="{{item.newsid}}">
+      <template is="musicTemplate" data="{{...item}}" />
+    </view>
+  </block>
+</view>
